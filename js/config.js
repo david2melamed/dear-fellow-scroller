@@ -11,7 +11,7 @@ export const SITE = {
   writersJoined: 3,
   writersGoal: 10,
   youtubeLatestVideoId: '',
-  canonicalUrl: 'https://example.com', // Replace before publishing; also update static metadata, robots and sitemap.
+  canonicalUrl: 'https://dear-fellow-scroller.netlify.app', // Replace before publishing; also update static metadata, robots and sitemap.
   socials: {
     tiktok: 'https://www.tiktok.com/@dearfellowscroller',
     instagram: 'https://www.instagram.com/dearfellowscroller/',

@@ -6,7 +6,10 @@ An open-source website for a teen-written newsletter about spending less time sc
 
 **Built with:** semantic HTML, modern CSS, vanilla JavaScript, self-hosted fonts, and Netlify Forms. No build step or runtime dependencies.
 
-**Project status:** source published; production deployment and final launch audits pending. See the verification notes below for tested behavior and remaining checks.
+**Project status:** source published and deployed to Netlify. Public visitor access and form delivery verification are pending. See the verification notes below for tested behavior and remaining checks.
+
+**Deployment:** https://dear-fellow-scroller.netlify.app
+
 
 ## License and attribution
 
