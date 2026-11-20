@@ -6,7 +6,7 @@ An open-source website for a teen-written newsletter about spending less time sc
 
 **Built with:** semantic HTML, modern CSS, vanilla JavaScript, self-hosted fonts, and Netlify Forms. No build step or runtime dependencies.
 
-**Project status:** source published and deployed to Netlify. Public visitor access and form delivery verification are pending. See the verification notes below for tested behavior and remaining checks.
+**Project status:** source published and production publicly deployed to Netlify. Form detection is enabled for `founding-writers`. Signup notifications are configured for the owner-designated brand mailbox, pending confirmation by that mailbox; end-to-end email delivery remains unverified. See the verification notes below for tested behavior and remaining checks.
 
 **Deployment:** https://dear-fellow-scroller.netlify.app
 
@@ -96,3 +96,7 @@ Run a mobile Lighthouse audit after fonts and final domain are installed. A scor
 - Generated PNG dimensions verified: 32×32, 180×180 and 1200×630; share card visually inspected.
 - All six local WOFF2 font files are installed, with valid binary headers and the three accompanying OFL license notices.
 - Success delivery, reduced-motion emulation, complete keyboard traversal, network-panel audit, Lighthouse and throttled frame-rate measurements remain launch checks.
+
+## Hosting notes
+
+Production is public; deploy previews remain private. Netlify Free injects a same-origin platform badge/HUD script (`/.netlify/scripts/hud?variant=public`); its UI says removing the badge requires a plan upgrade. The strict original no-third-party-scripts goal therefore needs a separate hosting review. No paid plan was enabled.
