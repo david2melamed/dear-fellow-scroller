@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /joined/
+
+Sitemap: https://example.com/sitemap.xml
